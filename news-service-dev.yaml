@@ -19,6 +19,7 @@ spring:
     database: postgresql
   liquibase:
     change-log: classpath:db/changelog-master.yaml
+    clear-check-sums: true
     url: jdbc:postgresql://news-comment-db:5432/news_management
     user: username
     password: password

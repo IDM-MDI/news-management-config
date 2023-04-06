@@ -18,7 +18,7 @@ spring:
       ddl-auto: none
     database: postgresql
   liquibase:
-    change-log: db/db.changelog-master.yaml
+    change-log: classpath:db/changelog-master.yaml
     url: jdbc:postgresql://news-comment-db:5432/news_management
     user: username
     password: password
